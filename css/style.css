@@ -1,0 +1,175 @@
+/* Basic Clean Website Design by Luke Mitchell */
+
+body {
+    background-color: #F5FBA8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    width: 80%;
+    overflow: hidden;
+    z-index: -1;
+    margin: 0 auto;
+}
+
+/* Ensure container stretches to fit float */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+/* Page header */
+
+#header {
+	clear: both;
+	display: block;
+}
+
+/* Navigation */
+
+#site-title {
+	float: left;
+	text-align: left;
+	font-family: 'Indie Flower', cursive;
+}
+
+#site-title a {
+	text-decoration: none;
+	color: black;
+}
+
+#nav {
+	float: right;
+	text-align: right;
+}
+
+#nav ul {
+	float: right;
+	list-style: none;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#nav ul li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#nav ul li a:hover {
+	font-weight: bold;
+	color: #4E5400;
+}
+
+/* Footer */
+
+#footer {
+	width: 100%;
+	text-align: center
+}
+
+/* Content */
+
+#content {
+	background-color: #9FA838;
+	clear: both;
+	display: block;
+	padding: 1em;
+	margin-bottom: 15px;
+}
+
+#you-are-here {
+	display: block;
+}
+
+/* Some easy-to-use classes */
+
+#page-text .bold {
+	font-weight: bold;
+}
+
+#page-text .underline {
+	text-decoration: underline;
+}
+
+#page-text .italic {
+	font-style: italic;
+}
+
+#page-text .left,
+#page-text .right{
+	border: 2px dashed;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#page-text .left {
+	float: left;
+	clear: left; 
+	margin-right: 10px;
+}
+
+#page-text .right {
+	float: right;
+	clear: right;
+	margin-left: 10px;
+}
+
+/* Sizes for floats */
+
+#page-text .small {
+	width: 20%;
+}
+
+#page-text .medium {
+	width: 30%;
+}
+
+#page-text .large {
+	width: 40%;
+}
+
+#page-text .xlarge {
+	width: 50%;
+}
+
+/* Sizes for gallery */
+
+#page-text .quarter {
+	width: 25%;
+}
+
+#page-text .half {
+	width: 50%;
+}
+
+#page-text .3quarter {
+	width: 75%;
+}
+
+#page-text .whole {
+	width: 100%;
+}
