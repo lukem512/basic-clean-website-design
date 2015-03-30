@@ -1,14 +1,21 @@
 /* Basic Clean Website Design by Luke Mitchell */
 
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
 body {
     background-color: #F5FBA8;
     font-family: 'Open Sans', sans-serif;
 }
 
 #container {
+	min-height: 100%;
+	position: relative;
     width: 80%;
-    overflow: hidden;
-    z-index: -1;
     margin: 0 auto;
 }
 
@@ -25,7 +32,7 @@ body {
 	display: inline-block;
 }
 
-/* Hides from IE-mac \*/
+/* Hides from IE-mac */
 * html .clearfix {
 	height: 1%;
 }
@@ -84,25 +91,28 @@ body {
 	color: #4E5400;
 }
 
-/* Footer */
-
-#footer {
-	width: 100%;
-	text-align: center
-}
-
 /* Content */
 
 #content {
+	padding: 15px;
+	padding-bottom: 30px;
 	background-color: #9FA838;
 	clear: both;
-	display: block;
-	padding: 1em;
-	margin-bottom: 15px;
 }
 
 #you-are-here {
 	display: block;
+}
+
+/* Footer */
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background-color: #F5FBA8;
 }
 
 /* Some easy-to-use classes */
