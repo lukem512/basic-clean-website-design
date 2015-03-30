@@ -120,22 +120,43 @@ body {
 }
 
 #page-text .left,
-#page-text .right{
-	border: 2px dashed;
+#page-text .left-clear,
+#page-text .right,
+#page-text .right-clear {
 	margin-bottom: 10px;
 	padding: 5px;
+	border: 2px solid;
+}
+
+#page-text .pad-left {
+	margin-right: 10px;
+}
+
+#page-text .pad-right {
+	margin-left: 10px;
 }
 
 #page-text .left {
 	float: left;
+}
+
+#page-text .left-clear {
+	float: left;
 	clear: left; 
-	margin-right: 10px;
 }
 
 #page-text .right {
 	float: right;
+}
+
+#page-text .right-clear {
+	float: right;
 	clear: right;
-	margin-left: 10px;
+}
+
+#page-text .span {
+	width: 100%;
+	text-align: center;	
 }
 
 /* Sizes for floats */
@@ -159,15 +180,15 @@ body {
 /* Sizes for gallery */
 
 #page-text .quarter {
-	width: 25%;
+	width: 24%;
 }
 
 #page-text .half {
-	width: 50%;
+	width: 49%;
 }
 
 #page-text .3quarter {
-	width: 75%;
+	width: 74%;
 }
 
 #page-text .whole {
